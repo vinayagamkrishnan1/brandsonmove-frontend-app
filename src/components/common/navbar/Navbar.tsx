@@ -194,6 +194,19 @@ function Navbar({ onTabChange }: { onTabChange: () => void }) {
               SETUP A MEETING
             </Link>
           </li>
+          <li
+            className={`nav-item ${
+              location?.pathname == "/translationpage" ? "menu-active" : ""
+            }`}
+          >
+            <Link
+              to="/translationpage"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Translation
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
