@@ -199,13 +199,13 @@ function Navbar({ onTabChange }: { onTabChange: () => void }) {
               location?.pathname == "/translationpage" ? "menu-active" : ""
             }`}
           >
-            <Link
+            {/* <Link
               to="/translationpage"
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Translation
-            </Link>
+            </Link> */}
           </li>
         </ul>
       </div>
